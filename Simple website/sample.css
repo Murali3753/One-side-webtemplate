@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ body{
+     background-image: url('background.jpeg');
+    
+     
+ }
+ .navbar{
+     height: 60px;
+     width: 100%;
+     background: rgba(29, 28, 28, 0.6);
+ }
+ .navbar li{
+     float: right;
+     margin-right: 20px;
+ }
+ .navbar ul li {
+     list-style: none;
+     margin: 0 8px;
+     display: inline-block;
+     line-height: 60px;
+     list-style: none;
+ }
+ .navbar ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     padding: 6px 13px;
+     font-family: 'Roboto';
+ }
+ .navbar ul li a:hover{
+     background-color: thistle;
+     border-radius: 2px;
+ }
+ 
+ .wrapper .center {
+     position: absolute;
+     top:50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-family: sans-serif;
+     color: white;
+ }
+
+ .center h1{
+     color: white;
+     font-size: 70px;
+     font-weight: bold;
+     width: 900px;
+     text-align: center;
+ }
+ .center h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.center .buttons{
+margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgb(190, 126, 126);
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+    border: 1px solid thistle;
+}
+.buttons button:hover{
+    background-color: thistle;
+
+}
+
+@media(max-width:480px){
+    button {
+        width:20px;
+        height: 20px;
+    }
+}
+@media (max-width:480px){
+    .center h1{
+        font-size: 80%;
+    }
+}
+@media (max-width:480px){
+    .center h2{
+        font-size: 80%;
+    }
+}
+@media (max-width:480px){
+    nav ul li{
+        width: 50%;
+    }
+}
+@media (max-width:480px){
+    button{
+        width: 50%;
+    }
+}
